@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benjamin Antunes — Maître de conférences, FEMTO-ST / DEODIS</title>
+<meta name="description" content="Benjamin Antunes, maître de conférences en informatique à l'Université Marie et Louis Pasteur (FEMTO-ST, DISC, équipe DEODIS). Reproductibilité, HPC, simulations stochastiques, PRNG.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F5F7F8;
+    --ink:#22303A;
+    --soft:#55646E;
+    --meta:#7C8A93;
+    --line:#DDE3E7;
+    --accent:#2F6F8F;
+    --accent-dark:#22536C;
+    --sans:"IBM Plex Sans",system-ui,sans-serif;
+    --serif:"IBM Plex Serif",Georgia,serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+  a:hover{color:var(--accent-dark)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+  .wrap{max-width:720px;margin:0 auto;padding:0 24px}
+
+  nav{border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;gap:22px;align-items:center;height:56px;font-size:15px;overflow-x:auto}
+  nav a{color:var(--soft);text-decoration:none;white-space:nowrap}
+  nav a:hover{color:var(--accent)}
+  nav .home{font-family:var(--serif);font-weight:600;color:var(--ink);margin-right:auto}
+
+  header{padding:56px 0 40px}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,5vw,2.8rem);line-height:1.15;margin:0 0 16px}
+  .lede{font-size:1.1rem;color:var(--soft);margin:0 0 8px;max-width:60ch}
+  header p{margin:0 0 8px;max-width:64ch}
+  .links{list-style:none;padding:0;margin:22px 0 0;display:flex;flex-wrap:wrap;gap:6px 20px;font-size:15px}
+
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  h2{font-family:var(--serif);font-weight:500;font-size:1.55rem;margin:0 0 18px}
+  h3{font-size:1rem;font-weight:600;margin:28px 0 8px}
+  p{margin:0 0 14px;max-width:66ch}
+  ul{padding-left:1.2em;margin:0 0 14px}
+  li{margin-bottom:6px}
+  .note{font-size:15px;color:var(--meta)}
+
+  table{width:100%;border-collapse:collapse;font-size:15px;margin-bottom:8px}
+  th{text-align:left;font-weight:600;padding:8px 8px 8px 0;border-bottom:1px solid var(--ink);color:var(--soft)}
+  td{padding:8px 8px 8px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  .n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+  .pubs{list-style:none;padding:0;margin:0}
+  .pubs li{padding:10px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+  .pubs li:last-child{border-bottom:0}
+  .pubs .v{display:block;color:var(--soft)}
+  .pubs .v i{color:var(--accent-dark)}
+
+  .timeline{list-style:none;padding:0;margin:0}
+  .timeline li{display:grid;grid-template-columns:105px 1fr;gap:16px;padding:8px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+  .timeline li:last-child{border-bottom:0}
+  .timeline .d{color:var(--meta);font-variant-numeric:tabular-nums}
+  .timeline .w{color:var(--soft)}
+  @media (max-width:480px){.timeline li{grid-template-columns:1fr;gap:2px}}
+
+  footer{padding:32px 0 56px;border-top:1px solid var(--line);font-size:14px;color:var(--meta)}
+</style>
+</head>
+<body>
+
+<nav aria-label="Navigation">
+  <div class="wrap">
+    <a class="home" href="#top">Benjamin Antunes</a>
+    <a href="#recherche">Recherche</a>
+    <a href="#enseignement">Enseignement</a>
+    <a href="#publications">Publications</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="wrap" id="top">
+  <h1>Benjamin Antunes</h1>
+  <p class="lede">Maître de conférences en informatique à l’Université Marie et Louis Pasteur, Besançon.</p>
+  <p>Membre de l’équipe DEODIS du département DISC de l’institut FEMTO-ST (UMR CNRS 6174). J’enseigne au département Informatique de l’UFR Sciences et Techniques.</p>
+  <p>Mes recherches portent sur la reproductibilité des calculs en environnement haute performance, les simulations stochastiques et multi-agents, et la qualité des générateurs de nombres pseudo-aléatoires.</p>
+  <ul class="links">
+    <li><a href="mailto:benjamin.antunes@univ-fcomte.fr">benjamin.antunes@univ-fcomte.fr</a></li>
+    <li><a href="https://scholar.google.com/citations?user=o5rgTqEAAAAJ&amp;hl=fr">Google Scholar</a></li>
+    <li><a href="https://github.com/benjaminantunes">GitHub</a></li>
+  </ul>
+</header>
+
+<main class="wrap">
+
+<section id="recherche">
+  <h2>Recherche</h2>
+  <p>Les codes de simulation fonctionnent souvent comme des boîtes noires. Je m’intéresse à ce qui, dans la chaîne matériel, compilateur, bibliothèques et générateur aléatoire, fait varier un résultat numérique, et aux pratiques qui permettent de le rejouer.</p>
+
+  <h3>Reproductibilité en calcul haute performance</h3>
+  <p>Survey de référence publié dans <i>Computer Science Review</i> sur les facteurs de perte de reproductibilité : parallélisme, Monte-Carlo, hétérogénéité matérielle, erreurs silencieuses, calcul quantique. Études expérimentales sur le SMT, l’affinité des processus, les compilateurs et la consommation énergétique.</p>
+
+  <h3>Générateurs pseudo-aléatoires et apprentissage automatique</h3>
+  <p>Comparaison des générateurs de Python, NumPy, TensorFlow et PyTorch avec leurs implémentations C d’origine, et étude de l’influence de la qualité statistique du générateur sur les résultats de simulations et de modèles d’apprentissage.</p>
+
+  <h3>Reproductibilité des modèles multi-agents</h3>
+  <p>Un même modèle épidémiologique implémenté indépendamment sur sept plateformes (C++, Julia, Python, NetLogo, GAMA, Cormas, PythonPDEVS) produit des différences statistiquement significatives. Collaboration avec l’IRD, le CIRAD, le LAAS-CNRS, l’UCA et l’Université de Corse.</p>
+
+  <h3>Simulation d’espèces invasives</h3>
+  <p>Simulation spatiale de la dispersion du cynips du châtaignier, avec S. Gourbière et R. Rousseau (UPVD), et perspectives autour de la modélisation écologique au sein de DEODIS.</p>
+
+  <h3>Vie scientifique</h3>
+  <ul>
+    <li>Comité d’organisation des Journées Francophones de la Modélisation et de la Simulation (JFMS 2024 et 2026).</li>
+    <li>Relecture pour <i>Open Research Europe</i> et <i>F1000Research</i>.</li>
+    <li>Séminaires invités au LIS (Aix-Marseille, 2025) et au LIRMM (Perpignan, 2024).</li>
+  </ul>
+</section>
+
+<section id="enseignement">
+  <h2>Enseignement</h2>
+
+  <h3>Année 2026–2027, Université Marie et Louis Pasteur</h3>
+  <table>
+    <thead><tr><th>Module</th><th>Formation</th><th class="n">CM</th><th class="n">TD</th><th class="n">TP</th></tr></thead>
+    <tbody>
+      <tr><td>Réseaux</td><td>M1 Informatique</td><td class="n" colspan="3">58 h éq. TD</td></tr>
+      <tr><td>Architectures logicielles à objets</td><td>M1 Informatique à distance</td><td class="n">–</td><td class="n">69</td><td class="n">–</td></tr>
+      <tr><td>Fondements pratiques et théoriques de l’internet des objets</td><td>M1 Informatique ISL</td><td class="n">–</td><td class="n">22,5</td><td class="n">36</td></tr>
+      <tr><td>Introduction à la recherche</td><td>L2 Informatique</td><td class="n">4,5</td><td class="n">9</td><td class="n">18</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Enseignements précédents (2021–2026)</h3>
+  <p>Environ 500 heures à l’Université Clermont Auvergne puis à l’Université de Perpignan Via Domitia, de la L1 au M2 : programmation web, génie logiciel, architecture logicielle et qualité, routage avancé, programmation C, algorithmique, simulation stochastique, programmation parallèle MPI, systèmes et bases de données.</p>
+
+  <h3>Encadrement</h3>
+  <p>Stages de M1 (impact des PRNG sur les simulations, consommation énergétique de codes parallèles, précision numérique en apprentissage) et projets d’élèves ingénieurs à l’ISIMA. Les étudiants intéressés par un stage ou un projet sur la reproductibilité, le HPC ou la simulation peuvent me contacter.</p>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+
+  <h3>Revues internationales</h3>
+  <ul class="pubs">
+    <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S157401372400039X">Reproducibility, Replicability, and Repeatability: A survey of reproducible research with a focus on high performance computing</a><span class="v">B. Antunes, D. R. C. Hill. <i>Computer Science Review</i>, vol. 53, 2024.</span></li>
+    <li><a href="https://ojs.wiserpub.com/index.php/CCDS/article/view/6280">Performance and Reproducibility Assessment of Quantum Dissipative Dynamics Framework: A Comparative Study of Fortran Compilers, MKL, and FFTW</a><span class="v">B. Antunes, C. Mazel, D. R. C. Hill. <i>Cloud Computing and Data Science</i>, vol. 6, 2025.</span></li>
+    <li><a href="https://doi.org/10.59461/ijdiic.v4i3.214">Statistical Quality and Reproducibility of Pseudorandom Number Generators in Machine Learning Technologies</a><span class="v">B. Antunes. <i>International Journal of Data Informatics and Intelligent Computing</i>, vol. 4, 2025.</span></li>
+    <li><a href="https://ojs.bonviewpress.com/index.php/jdsis/article/view/4012">Random Numbers for Machine Learning: A Comparative Study of Reproducibility and Energy Consumption</a><span class="v">B. Antunes, D. R. C. Hill. <i>Journal of Data Science and Intelligent Systems</i>, vol. 4, 2024.</span></li>
+    <li><a href="https://ojs.wiserpub.com/index.php/RRCS/article/download/3134/1853">Evaluating Simultaneous Multi-threading and Affinity Performance for Reproducible Parallel Stochastic Simulation</a><span class="v">B. Antunes, D. R. C. Hill. <i>Research Reports on Computer Science</i>, 2023.</span></li>
+  </ul>
+
+  <h3>Ouvrage</h3>
+  <ul class="pubs">
+    <li><a href="https://www.atramenta.net/books/recherche-reproductible/1524">Recherche Reproductible : comment les outils informatiques et le calcul scientifique impactent bien des disciplines</a><span class="v">B. Antunes, D. R. C. Hill. Hachette-Stylit-Atramantra, 144 p., 2024.</span></li>
+  </ul>
+
+  <h3>Conférences internationales</h3>
+  <ul class="pubs">
+    <li><a href="https://hal.science/hal-04642175v1">Machine learning and reproducibility: impact of random numbers</a><span class="v">D. R. C. Hill, B. Antunes, A. Bertrand, E. Mephu Nguifo, J. Nautré-Domanski, V. Antoine. <i>European Simulation and Modelling Conference</i>, 2024.</span></li>
+    <li><a href="https://arxiv.org/pdf/2401.17115">Identifying quality Mersenne Twister streams for parallel stochastic simulations</a><span class="v">B. Antunes, C. Mazel, D. R. C. Hill. <i>Winter Simulation Conference</i>, 2023.</span></li>
+    <li><a href="https://uca.hal.science/hal-04089148/document">A few words about quantum computing, epistemology, repeatability and reproducibility</a><span class="v">D. R. C. Hill, B. Antunes, T. Cluzel, C. Mazel. <i>EU/Meeting</i>, 2023.</span></li>
+  </ul>
+
+  <h3>Conférences nationales</h3>
+  <ul class="pubs">
+    <li><a href="https://hal.science/hal-04516024/document">Test de reproductibilité de l’algorithme de Grover sur simulateur et sur machines quantiques IBM</a><span class="v">B. Antunes, C. Mazel, P. Lacomme, D. R. C. Hill. <i>ROADEF</i>, 2024.</span></li>
+    <li><a href="https://uca.hal.science/hal-03739929">Utilisation de l’intelligence artificielle distribuée pour des simulations reproductibles de l’épidémie de Covid19</a><span class="v">B. Antunes, D. R. C. Hill. <i>GISEH</i>, 2022.</span></li>
+    <li><a href="https://uca.hal.science/hal-03768175">Reproductibilité et modèles Covid – un modèle multi-agents</a><span class="v">D. R. C. Hill, B. Antunes. <i>Journées DEVS Francophones</i>, 2022.</span></li>
+  </ul>
+
+  <h3>Prépublication et travaux en cours</h3>
+  <ul class="pubs">
+    <li><a href="https://arxiv.org/abs/2510.25269">The influence of the random numbers quality on the results in stochastic simulations and machine learning</a><span class="v">B. Antunes. arXiv:2510.25269, 2025.</span></li>
+    <li>Reproducibility of Agent-Based Models Across Platforms: An Epidemiological Case Study<span class="v">B. Antunes, H. Havion, É. Delay, C. Foucher, D. R. C. Hill, C. Mazel, P.-A. Bisgambiglia, A. Scriban, O. Zaitsev, R. Duboz. En préparation, 2026.</span></li>
+    <li>Applications and Limits of the Grover Quantum Algorithm<span class="v">D. R. C. Hill, B. Antunes. En préparation, 2026.</span></li>
+  </ul>
+</section>
+
+<section id="parcours">
+  <h2>Parcours</h2>
+  <ul class="timeline">
+    <li><span class="d">2026 –</span><span>Maître de conférences, Université Marie et Louis Pasteur<br><span class="w">FEMTO-ST, DISC, équipe DEODIS</span></span></li>
+    <li><span class="d">2025 – 2026</span><span>ATER puis maître de conférences contractuel, Université de Perpignan Via Domitia<br><span class="w">Équipe DALI, LIRMM</span></span></li>
+    <li><span class="d">2021 – 2024</span><span>Doctorat en informatique, Université Clermont Auvergne<br><span class="w">Calcul à haute performance, répétabilité et reproductibilité des résultats numériques et des mesures de performance. Direction : David R.C. Hill (LIMOS).</span></span></li>
+    <li><span class="d">2019 – 2021</span><span>Master informatique, Université Clermont Auvergne<br><span class="w">Génie logiciel et intégration d’applications. Major de promotion.</span></span></li>
+    <li><span class="d">2015 – 2019</span><span>DUT puis licence informatique, Clermont-Ferrand</span></li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><a href="mailto:benjamin.antunes@univ-fcomte.fr">benjamin.antunes@univ-fcomte.fr</a></p>
+  <p>Institut FEMTO-ST, département DISC<br>Université Marie et Louis Pasteur, Besançon</p>
+</section>
+
+</main>
+
+<footer class="wrap">Benjamin Antunes, 2026.</footer>
+
+</body>
+</html>
